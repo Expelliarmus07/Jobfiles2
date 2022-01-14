@@ -1,0 +1,6 @@
+SPLICE A healpix.dag
+SPLICE B m101_part1.dag
+SPLICE C m101_part2.dag
+
+PARENT B CHILD C
+

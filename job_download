@@ -1,0 +1,16 @@
+executable            = /usr/bin/wget
+arguments             = "http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_857_2048_R2.02_full.fits"
+#input                 = 
+
+#error                 = condor.error
+#log                   = condor.log
+ 
+request_cpus          = 1
+request_memory        = 256
+#request_disk          = 10240
+ 
+should_transfer_files = yes
+
+ 
+queue
+
